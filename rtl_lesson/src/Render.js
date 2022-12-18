@@ -8,7 +8,7 @@ export default class Render extends Component {
       <button>clic1</button>
       <button>clic4</button>
       <p>udemy</p>
-      <span>@react</span>
+      <span data-testid="hoge">@react</span>
       </div>
   }
 }

@@ -2,13 +2,39 @@ import React from 'react';
 import logo from './logo.svg';
 import { Counter } from './features/counter/Counter';
 import './App.css';
+import RenderInput from './RenderInput';
+import {List} from './List'
+import UseEffectRender from './UseEffectRender';
 
 function App() {
+  const data = [
+    {
+      id:1,item: "React"
+    },
+    {
+      id:2,item: "Vue"
+    },
+    {
+      id:3,item: "Angular"
+    },
+    {
+      id:4,item: "Next"
+    },
+    {
+      id:5,item: "Nuxt"
+    },
+  ]
+
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <Counter />
+        <RenderInput outputConsole={console.log} />
+        <List freamworks={data}/>
+        <List/>
+        <UseEffectRender/>
+
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
