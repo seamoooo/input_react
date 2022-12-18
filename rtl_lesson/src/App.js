@@ -5,6 +5,7 @@ import './App.css';
 import RenderInput from './RenderInput';
 import {List} from './List'
 import UseEffectRender from './UseEffectRender';
+import CustomHooks from './CustomHooks';
 
 function App() {
   const data = [
@@ -34,7 +35,7 @@ function App() {
         <List freamworks={data}/>
         <List/>
         <UseEffectRender/>
-
+        <CustomHooks/>
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
