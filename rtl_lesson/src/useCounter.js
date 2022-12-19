@@ -20,5 +20,5 @@ export const useCounter = (initialCount) => {
     setCount(0)
   }
 
-  return {count, increment, decrement, triple, reset}; 
+  return {count, increment, decrement, doubule, triple, reset}; 
 }
