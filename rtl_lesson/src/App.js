@@ -6,6 +6,7 @@ import RenderInput from './RenderInput';
 import {List} from './List'
 import UseEffectRender from './UseEffectRender';
 import CustomHooks from './CustomHooks';
+import MocServer from './MocServer';
 
 function App() {
   const data = [
@@ -36,6 +37,7 @@ function App() {
         <List/>
         <UseEffectRender/>
         <CustomHooks/>
+        <MocServer/>
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
